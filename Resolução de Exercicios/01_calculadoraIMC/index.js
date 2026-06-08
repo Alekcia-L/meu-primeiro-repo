@@ -1,6 +1,7 @@
-const peso = 70
-const altura = 1.68
+const peso = 76
+const altura = 1.79
 
-let imc = peso / altura ** 2
+const imc = peso / Math.pow(altura, 2)
+//let imc = peso / altura ** 2 outro jeito mais direto
 
-console.log(imc)
+console.log(`Seu IMC é ${imc}`)
